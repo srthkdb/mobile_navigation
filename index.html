@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navigation</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+  <div class="mobile-container">
+    <!-- Virtual mobile screen -->
+    <div class="content">
+      <!-- Show menu button -->
+      <button class="button button5" id="menuButton" onclick="showNavigation()">Menu</button>
+      <div id="menu">
+        <!-- side bar -->
+        <a href="#" onclick="hideNavigation()">
+          <!-- cross to hide navigation -->
+          <div id="mdiv">
+            <div class="mdiv">
+              <div class="md"></div>
+            </div>
+          </div>
+        </a>
+        <ul>
+          <!-- navigation list -->
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>  
+  </div>
+</body>
+</html>
